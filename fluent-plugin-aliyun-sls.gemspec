@@ -14,5 +14,5 @@ Gem::Specification.new do |gem|
   gem.files       = `git ls-files | grep -v ext | grep -v package`.split("\n")
   gem.require_paths = ['lib']
 
-  gem.add_dependency "aliyun_sls_sdk", [">= 0.0.9"]
+  gem.add_runtime_dependency "aliyun_sls_sdk", '~> 0.0', '>= 0.0.9'
 end
