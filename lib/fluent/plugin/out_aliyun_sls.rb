@@ -1,4 +1,5 @@
-# copy from https://github.com/AliyunContainerService/log-pilot
+# copy and modify from https://github.com/AliyunContainerService/log-pilot/blob/master/assets/fluentd/plugins/out_aliyun_sls.rb
+
 module Fluent
 
     class AliyunSlsOutput < BufferedOutput
